@@ -90,8 +90,10 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                  I develop cutting‑edge web experiences using React, Vite, and modern
+                  TypeScript, integrating open‑source tools like Lenis for smooth scrolling
+                  and SplitType for dynamic text effects. The portfolio showcases AI/ML
+                  projects with interactive visualizations, all crafted by Antigravity AI.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -131,8 +133,7 @@ const WhatIDo = () => {
               <h3>DESIGN</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                  The design blends deep‑tech aesthetics with glassmorphism, neon gradients, and subtle micro‑animations. Custom CSS creates a premium, immersive UI that highlights AI/ML work while maintaining responsive performance.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

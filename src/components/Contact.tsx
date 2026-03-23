@@ -65,6 +65,7 @@ const Contact = () => {
             <h5>
               <MdCopyright /> 2024
             </h5>
+            <p className="contact-note">Developed by Antigravity AI.</p>
           </div>
         </div>
       </div>
