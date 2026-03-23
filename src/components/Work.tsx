@@ -54,9 +54,9 @@ const Work = () => {
         </h2>
         <div className="work-flex">
           {[
-            { id: 1, name: "Movie Recommendation System", category: "Machine Learning", tools: "Python, Scikit-Learn, Pandas" },
-            { id: 2, name: "Stock Price Prediction", category: "Predictive Analytics", tools: "TensorFlow, Keras, Time Series" },
-            { id: 3, name: "Neural Network Solutions", category: "Deep Learning", tools: "PyTorch, Neural Networks" }
+            { id: 1, name: "Movie Recommendation System", category: "Machine Learning", tools: "Python, Scikit-Learn, Pandas", image: "/images/movie_system.png" },
+            { id: 2, name: "Stock Price Prediction", category: "Predictive Analytics", tools: "TensorFlow, Keras, Time Series", image: "/images/stock_prediction.png" },
+            { id: 3, name: "Neural Network Solutions", category: "Deep Learning", tools: "PyTorch, Neural Networks", image: "/images/neural_network.png" }
           ].map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
@@ -71,7 +71,7 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image={project.image} alt={project.name} />
             </div>
           ))}
         </div>
