@@ -73,7 +73,7 @@ const Work = () => {
       id: 4,
       name: "SkillSync AI",
       category: "FastAPI + NLP Backend",
-      tools: "FastAPI, scikit-learn, pandas, numpy, PyPDF2",
+      tools: "Skill gap analysis, resume parsing, TF-IDF job matching, career path suggestions",
       image: "/images/placeholder.webp",
       link: "https://github.com/Saman-Sunasara/skillgap-Ai",
     },
@@ -83,7 +83,7 @@ const Work = () => {
     <div className="work-section" id="work">
       <div className="work-container section-container">
         <h2>
-          My <span>Work</span>
+          My <span>Projects</span>
         </h2>
         <div className="work-flex">
           {projects.map((project, index) => (
