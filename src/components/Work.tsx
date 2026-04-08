@@ -50,32 +50,32 @@ const Work = () => {
   const projects = [
     {
       id: 1,
+      name: "SkillSync AI",
+      category: "FastAPI + NLP Backend",
+      tools: "Skill gap analysis, resume parsing, TF-IDF job matching, career path suggestions",
+      image: "/images/placeholder.webp",
+      link: "https://github.com/Saman-Sunasara/skillgap-Ai",
+    },
+    {
+      id: 2,
       name: "Movie Recommendation System",
       category: "Machine Learning",
       tools: "Python, Scikit-Learn, Pandas",
       image: "/images/movie_system.png",
     },
     {
-      id: 2,
+      id: 3,
       name: "Stock Price Prediction",
       category: "Predictive Analytics",
       tools: "TensorFlow, Keras, Time Series",
       image: "/images/stock_prediction.png",
     },
     {
-      id: 3,
+      id: 4,
       name: "Neural Network Solutions",
       category: "Deep Learning",
       tools: "PyTorch, Neural Networks",
       image: "/images/neural_network.png",
-    },
-    {
-      id: 4,
-      name: "SkillSync AI",
-      category: "FastAPI + NLP Backend",
-      tools: "Skill gap analysis, resume parsing, TF-IDF job matching, career path suggestions",
-      image: "/images/placeholder.webp",
-      link: "https://github.com/Saman-Sunasara/skillgap-Ai",
     },
   ];
 
